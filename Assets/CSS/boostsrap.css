@@ -1,0 +1,34 @@
+.btn{
+    width: 200px;
+    height: 70px;
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    font-size: 17px;
+    border-style: hidden;
+    font-family: cursive;
+    font-weight:bolder;
+
+}
+
+.btn:hover{
+    background-color: black;
+    border-color: black;
+    border-radius: 12px;
+    opacity: 0.5;
+}
+
+.btntext{
+    width: 250px;
+    border-radius: 10px;
+    height: 95px;
+    background-color: white;
+    font-size:30px ;
+    font-family: fantasy;
+}
+
+.btntext:hover{
+    border-color: aqua;
+    color: aqua;
+    cursor: pointer;
+}
