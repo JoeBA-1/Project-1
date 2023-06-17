@@ -14,6 +14,7 @@ body{
     min-height: 45px;
     justify-content: left;
     font-family: cursive;
+    z-index: 1;
    
 }
 .navbar a{
@@ -39,7 +40,7 @@ body{
     padding-left:100px;
     padding-right: 100px;
     margin-top: auto;
-    margin-bottom: 10px;
+    margin-bottom: auto;
     min-width: 500px;
     font-size: x-large;
     font-family: cursive;
@@ -195,7 +196,6 @@ footer{
 /* } */
 .social ul{
     list-style: none;
-    text-align: center;
 }
 .social ul li{
     display: inline-block;
@@ -238,14 +238,14 @@ footer{
  #style2,#style1, #contactus{
     padding: 30px 0px;
  }
- table {
+table {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 50px;
     
 }
 table, th, td {
     /* border-right:  1px solid #be0000; */
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
     border: 1px solid black;
     
 }
@@ -254,8 +254,8 @@ th {
     border-radius: 2px;
 }
 td {
-    text-align: center;
-    /*color: aqua;
+    /* text-align: center;
+    color: aqua;
     border-right:  1px solid #0003be;  */
     border-radius: 7px;
 }
@@ -270,8 +270,49 @@ td {
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
-form{
+form {
+    border: 3px solid #f1f1f1;
     text-align: center;
-    text-;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+} 
+/* .message {
+    text-align: center;
+} */
+#message  {
+    min-width: 1000px;
+    min-height: 400px;
+    background-image:url("/Assets/Pic/Messenger.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    /* opacity: 0.3; */
+    color: white;
+
+}
+#message:hover{
+    opacity: 0.7;
+
+}
+.message ::placeholder {
+    color: white;
+}
+
+.trailer{
+    text-align: center;
+}
+#btn-submit{
+    color: white;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right,black, red, white);
+}
+#btn-submit:hover{ 
+
+    /* background-image: linear-gradient(90deg, white, black, red); */
+    background-image: radial-gradient(white, red, black);
+    font-weight: bold;
+    color: black;
+
 }
